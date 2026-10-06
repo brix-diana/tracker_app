@@ -3,7 +3,6 @@ import { useRouter } from 'next/router'
  
 export default function LoginPage() {
   const router = useRouter()
- 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
  
